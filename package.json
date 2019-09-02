@@ -26,5 +26,11 @@
   "dependencies": {
     "nodemailer": "^6.3.0",
     "nodemailer-ntlm-auth": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   }
 }

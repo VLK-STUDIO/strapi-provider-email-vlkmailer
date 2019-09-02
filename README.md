@@ -1,6 +1,8 @@
-# strapi-provider-email-vlkmailer
+# 📫 VLKMailer
 
-Nodemailer provider for Strapi with attacments support for latest Strapi versions.
+##### A Nodemailer Provider for 🚀 Strapi that helps you to send email!
+
+🙏 A better description soon!
 
 powered by [Vlk Studio](https://vlkstudio.com/)
 
@@ -9,9 +11,3 @@ powered by [Vlk Studio](https://vlkstudio.com/)
 - [Strapi website](http://strapi.io/)
 - [Strapi community on Slack](http://slack.strapi.io)
 - [Strapi news on Twitter](https://twitter.com/strapijs)
-
-## Installation
-
-```bash
-npm i strapi-provider-email-vlkmailer
-```
