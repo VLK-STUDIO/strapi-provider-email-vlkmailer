@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-vlkmailer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodemailer provider for Strapi, powered by VLK STUDIO",
   "main": "./lib",
   "directories": {
@@ -27,10 +27,5 @@
     "nodemailer": "^6.3.0",
     "nodemailer-ntlm-auth": "^1.0.1"
   },
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
-  }
+  "devDependencies": {}
 }
