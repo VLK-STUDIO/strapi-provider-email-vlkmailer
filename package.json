@@ -1,0 +1,30 @@
+{
+  "name": "strapi-provider-email-vlkmailer",
+  "version": "1.0.0",
+  "description": "A nodemailer provider for Strapi, powered by VLK STUDIO",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "strapi",
+    "vlk",
+    "studio",
+    "vlk studio",
+    "email",
+    "nodemailer",
+    "provider"
+  ],
+  "author": "Mauro Erta <mauro@vlkstudio.com>",
+  "license": "MIT",
+  "strapi": {
+    "isProvider": true
+  },
+  "dependencies": {
+    "nodemailer": "^6.3.0",
+    "nodemailer-ntlm-auth": "^1.0.1"
+  }
+}
