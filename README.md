@@ -2,6 +2,13 @@
 
 ##### A Nodemailer Provider for 🚀 Strapi that helps you to send email!
 
+##### Table of contents:
+
+- [🏗 Installation](#-installation)
+- [⚙ How to use](#-how-to-use)
+- [🎓 Example](#-example)
+- [🔗 Links](#-links)
+
 powered by [VLK Studio](https://www.vlkstudio.com/)
 
 ## 🏗 Installation
