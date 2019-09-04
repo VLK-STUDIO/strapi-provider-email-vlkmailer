@@ -44,7 +44,7 @@ Select **VlkMailer** as your default email provider, now you only have to fill i
 - **subject**: The subject of the email
 - **text**: The text of the email (no HTML here!)
 - **html**: The HTML version of the email
-- **secure**: enable SSL
+- **secure**: enable TLS
 - **pool**: set to *true* to use pooled connections (defaults to *false*) instead of creating a new connection for every email
 - **maxConnections**: is the count of maximum simultaneous connections to make against the SMTP server (defaults to 5)
 
