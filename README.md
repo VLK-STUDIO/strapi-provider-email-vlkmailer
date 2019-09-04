@@ -44,13 +44,7 @@ Select **VlkMailer** as your default email provider, now you only have to fill i
 - **subject**: The subject of the email
 - **text**: The text of the email (no HTML here!)
 - **html**: The HTML version of the email
-- **secure**: enable TLS
-- **pool**: set to *true* to use pooled connections (defaults to *false*) instead of creating a new connection for every email
-- **maxConnections**: is the count of maximum simultaneous connections to make against the SMTP server (defaults to 5)
-
-- **maxMessages**: limits the message count to be sent using a single connection (defaults to 100). After *maxMessages* is reached the connection is dropped and a new one is created for the following messages
-- **rateDelta**: defines the time measuring period in milliseconds (defaults to 1000, ie. to 1 second) for rate limiting
-- **rateLimit**: limits the message count to be sent in *rateDelta* time. Once *rateLimit* is reached, sending is paused until the end of the measuring period. This limit is shared between connections, so if one connection uses up the limit, then other connections are paused as well. If *rateLimit* is not set then sending rate is not limited
+- **attachments**: The attachments to your email
 
 
 
@@ -72,7 +66,6 @@ afterCreate: async (model, attrs, options) => {
     replyTo: 'info@youremail.com',
     subject: 'Welcome!',
     text: `Welcome to our website, ${member.name}`,
-    secure: true,
     html: '... the html of your email!'
   });
 },
