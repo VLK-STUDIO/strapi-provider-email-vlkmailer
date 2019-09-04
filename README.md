@@ -6,7 +6,7 @@
 
 - [🏗 Installation](#-installation)
 - [⚙ How to use](#-how-to-use)
-- [📌 Available options](#-available-options)
+  - [📌 Available options](#-available-options)
 - [🎓 Example](#-example)
 - [🔗 Links](#-links)
 
@@ -14,7 +14,7 @@
 
 
 
-## 🏗 Installation
+# 🏗 Installation
 
 Simply run this command in the same location where strapi is installed:
 
@@ -28,13 +28,13 @@ npm i strapi-provider-email-vlkmailer
 strapi develop
 ```
 
-## ⚙ How to use
+# ⚙ How to use
 
 Navigate to ***PLUGINS --> EMAIL*** and go to the configurations by clicking the *gear* (⚙).
 
-Select **VlkMailer** as your default email provider, now you only have to compile the form with your email configurations! (like *host, username, etc..*)
+Select **VlkMailer** as your default email provider, now you only have to fill in the form with your email configurations (like *host, username, password, etc..*)!
 
-That's all folks!
+*<u>That's all folks!</u>*
 
 ## 📌 Available options
 
@@ -54,7 +54,7 @@ That's all folks!
 
 
 
-## 🎓 Example
+# 🎓 Example
 
 Maybe you want to send an email when a new member of your website has complete the registration process, to do this just go to your model (*/api/member/models/Member.js*)
 
@@ -78,7 +78,7 @@ afterCreate: async (model, attrs, options) => {
 },
 ```
 
-## 🔗 Links
+# 🔗 Links
 
 - [VLK Studio](https://www.vlkstudio.com/)
 - [Strapi website](http://strapi.io/)
