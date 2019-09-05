@@ -50,6 +50,7 @@ You can set this configuration directly from the Strapi Administration Panel
 - **maxConnections**: is the count of maximum simultaneous connections to make against the SMTP server (defaults to 10)
 - **maxMessages**: limits the message count to be sent using a single connection (defaults to 100). After *maxMessages* is reached the connection is dropped and a new one is created for the following messages
 - **rateDelta**: defines the time measuring period in milliseconds (defaults to 1000, ie. to 1 second) for rate limiting
+- **pool**: Enable pooled connection
 
 ## 📌 Available options
 

@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-vlkmailer",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A nodemailer provider for Strapi, powered by VLK STUDIO",
   "main": "./lib",
   "directories": {
@@ -31,8 +31,7 @@
     "url": "https://github.com/mauroerta/strapi-provider-email-vlkmailer"
   },
   "dependencies": {
-    "nodemailer": "^6.3.0",
-    "nodemailer-ntlm-auth": "^1.0.1"
+    "nodemailer": "^6.3.0"
   },
   "devDependencies": {}
 }
