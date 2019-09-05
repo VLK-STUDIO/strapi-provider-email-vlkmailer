@@ -6,6 +6,7 @@
 
 - [🏗 Installation](#-installation)
 - [⚙ How to use](#-how-to-use)
+  - [🔧 Available configurations](#-available-configurations)
   - [📌 Available options](#-available-options)
 - [🎓 Example](#-example)
 - [🔗 Links](#-links)
@@ -36,7 +37,23 @@ Select **VlkMailer** as your default email provider, now you only have to fill i
 
 *<u>That's all folks!</u>*
 
+## 🔧 Available configurations
+
+You can set this configuration directly from the Strapi Administration Panel
+
+- **nodemailer_default_from**: The default sender address
+- **nodemailer_default_replyto**: The default reply to address
+- **host**: The address of the SMTP server
+- **port**: The port used for the connections
+- **username**: Your username
+- **password**: Your password
+- **maxConnections**: is the count of maximum simultaneous connections to make against the SMTP server (defaults to 10)
+- **maxMessages**: limits the message count to be sent using a single connection (defaults to 100). After *maxMessages* is reached the connection is dropped and a new one is created for the following messages
+- **rateDelta**: defines the time measuring period in milliseconds (defaults to 1000, ie. to 1 second) for rate limiting
+
 ## 📌 Available options
+
+You can set this options in your code for each email you want to send!
 
 - **to**: The receiver email address
 - **from**: The sender email address
