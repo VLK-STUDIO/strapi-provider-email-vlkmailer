@@ -25,11 +25,14 @@
   "strapi": {
     "isProvider": true
   },
-  "homepage": "https://www.vlkstudio.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauroerta/strapi-provider-email-vlkmailer"
+    "url": "git+https://github.com/mauroerta/strapi-provider-email-vlkmailer"
   },
+  "bugs": {
+    "url": "https://github.com/mauroerta/strapi-provider-email-vlkmailer/issues"
+  },
+  "homepage": "https://github.com/mauroerta/strapi-provider-email-vlkmailer#readme",
   "dependencies": {
     "nodemailer": "^6.3.0"
   },
